@@ -1,5 +1,4 @@
 import sqlite3
-from sqlite3 import Error
 
 def create_table():
     with sqlite3.connect('todo.db') as conn:
